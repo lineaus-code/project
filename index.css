@@ -1,0 +1,94 @@
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color:goldenrod;
+  }
+  body{
+      color: goldenrod;
+  }
+.bacart{
+    color: purple;
+   
+}
+#crt{
+    float:right;
+}
+.log{
+    background-color: goldenrod  ; 
+    border-color: darkviolet;
+    font-size: 10pt;
+}
+
+  .widget-wrapper {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+  }
+  
+  .extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .divider-new {
+    margin-top: 0;
+  }
+  
+  .navbar {
+    background-color: purple;
+  }
+  
+  footer.page-footer {
+    background-color: #414a5c;
+    margin-top: 2rem;
+  }
+  .imag{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+figcaption {
+    align-self: auto;
+    border-left: 1em solid rgb(169, 13, 94);
+    
+    font-style: oblique;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 14pt;
+  }
+  .footer {
+    background-color: purple;
+    color: #ccc;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: goldenrod;
+    text-align: center;
+  }
+  .footer-copyright {
+    color: goldenrod;
+    padding: 40px 0;
+  }
+  @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  }
